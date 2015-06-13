@@ -67,4 +67,17 @@ require_once __DIR__ . '/function.php';
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/form.js"></script>
 	<script src="js/main.js"></script>
+	<!-- ADDTHIS BUTTON BEGIN -->
+	<script type="text/javascript">
+		var addthis_config = {
+			pubid: "YOUR-PROFILE-ID"
+		};
+		var addthis_share = {
+			url: "http://phpass.wordpresskite.com/",
+			title: "Online Password Hashing for WordPress",
+			description: "Use PHPass to generate password for WordPress, Drupal. Helpfull when you forgot or lost the password."
+		}
+	</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557b985d1c1e0a10" async="async"></script>
+	<!-- ADDTHIS BUTTON END -->
 </html>
