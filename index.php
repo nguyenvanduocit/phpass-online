@@ -52,7 +52,7 @@ require_once __DIR__ . '/function.php';
 				<span class="highlight"></span>
 				<span class="bar"></span>
 			</div>
-			<a style="text-align: center" href="https://www.youtube.com/watch?v=03cp3U2zqfc" target="_blank" rel="external nofollow"><h2>Learn how to use this hash</h2></a>
+			<a style="text-align: center" href="https://www.youtube.com/watch?v=03cp3U2zqfc" target="_blank" rel="external nofollow"><h3>Learn how to use this hash</h3></a>
 		</div>
 		<button type="submit" class="button buttonBlue">GENERATE
 			<div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
