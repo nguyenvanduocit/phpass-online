@@ -15,7 +15,7 @@
 					dataType: 'json',
 					data:{password:newPassword},
 					beforeSend:function(){
-						showResult('Sending');
+						showResult('Generating ...');
 					},
 					success: function( resp ) {
 						console.log( resp );

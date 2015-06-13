@@ -16,16 +16,16 @@ require_once __DIR__ . '/function.php';
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Online Password Hashing for WordPress" />
 		<meta property="og:description" content="Use PHPass to generate password for WordPress, Drupal. Helpfull when you forgot or lost the password" />
-		<meta property="og:url" content="http://laptrinh.senviet.org/" />
+		<meta property="og:url" content="http://phpass.wordpresskite.com/" />
 		<meta property="og:site_name" content="Online Password Hashing for WordPress" />
 		<meta property="article:publisher" content="https://www.facebook.com/senvietorg" />
-		<meta property="og:image" content="http://laptrinh.senviet.org/wp-content/uploads/2014/01/10.jpg" />
+		<meta property="og:image" content="http://phpass.wordpresskite.com/img/thumbnail.jpg" />
 		<meta name="twitter:card" content="summary_large_image"/>
 		<meta name="twitter:description" content="Use PHPass to generate password for WordPress, Drupal. Helpfull when you forgot or lost the password"/>
 		<meta name="twitter:title" content="PHPass Generator - Online Password Hashing for WordPress"/>
 		<meta name="twitter:site" content="@laptrinhsenviet"/>
 		<meta name="twitter:domain" content="PHPass Generator"/>
-		<meta name="twitter:image:src" content="http://laptrinh.senviet.org/wp-content/uploads/2014/01/10.jpg"/>
+		<meta name="twitter:image:src" content="http://phpass.wordpresskite.com/img/thumbnail.jpg"/>
 		<meta name="twitter:creator" content="@laptrinhsenviet"/>
 		<link rel="stylesheet" href="css/stylesheet.css"/>
 	</head>
