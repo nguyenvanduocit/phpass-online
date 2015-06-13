@@ -8,7 +8,7 @@ body {
 
 hgroup {
     text-align:center;
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 h1, h3 { font-weight: 300; }
@@ -24,10 +24,13 @@ hgroup h3{
     margin: 0 auto;
     width: 527px;
 }
-form {
+form.card{
+    padding-top: 4em;
+}
+.card {
     width: 522px;
     margin: 2em auto;
-    padding: 4em 3em 3em 3em;
+    padding: 3em 3em 3em 3em;
     background: #fafafa;
     border: 1px solid #ebebeb;
     box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
