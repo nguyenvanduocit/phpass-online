@@ -39,18 +39,14 @@ require_once __DIR__ . '/function.php';
 	<form id="generateForm">
 		<div class="group">
 			<input type="text" id="newPassword" autocomplete="off"><span class="highlight"></span><span class="bar"></span>
-			<label>Type the new Password</label>
+			<label>New password</label>
 		</div>
-		<div id="statusContainer" class="group" style="display: none">
-			<h2>Status</h2>
-			<p id="status"></p>
-		</div>
-		<div id="resultContainer" style="display: none">
-			<h2>Result</h2>
+		<div id="resultContainer" class="group" style="display: none">
 			<div class="group">
 				<input type="text" id="hashedPassword"/>
 				<span class="highlight"></span>
 				<span class="bar"></span>
+				<label>Result</label>
 			</div>
 			<a style="text-align: center" href="https://www.youtube.com/watch?v=03cp3U2zqfc" target="_blank" rel="external nofollow"><h3>Learn how to use this hash</h3></a>
 		</div>

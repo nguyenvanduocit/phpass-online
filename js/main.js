@@ -51,7 +51,8 @@
 				var $resultContainer =$('#resultContainer');
 				var $hashedPassword = $resultContainer.find('#hashedPassword');
 				$hashedPassword.val(result);
-				$resultContainer.slideDown();
+				$resultContainer.fadeIn();
+				$hashedPassword.addClass('used');
 
 			}
 		});

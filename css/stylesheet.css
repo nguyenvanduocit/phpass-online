@@ -22,12 +22,12 @@ h2{
 }
 hgroup h3{
     margin: 0 auto;
-    width: 488px;
+    width: 527px;
 }
 form {
-    width: 446px;
+    width: 522px;
     margin: 2em auto;
-    padding: 3em 2em 2em 2em;
+    padding: 4em 3em 3em 3em;
     background: #fafafa;
     border: 1px solid #ebebeb;
     box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
@@ -35,7 +35,7 @@ form {
 
 .group {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 
 input {
@@ -71,10 +71,10 @@ label {
 /* active */
 
 input:focus ~ label, input.used ~ label {
-    top: -20px;
-    transform: scale(.75);
-    left: -20px;
-    /* font-size: 14px; */
+    top: -23px;
+    transform: scale(.9);
+    left: -5px;
+    font-size: 22px;
     color: #4a89dc;
 }
 
@@ -111,9 +111,9 @@ input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
 .highlight {
     position: absolute;
-    height: 60%;
+    height: 85%;
     width: 100px;
-    top: 25%;
+    top: 12%;
     left: 0;
     pointer-events: none;
     opacity: 0.5;
