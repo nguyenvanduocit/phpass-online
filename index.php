@@ -58,7 +58,8 @@ require_once __DIR__ . '/function.php';
 		<div class="g-plusone" data-size="tall" ></div>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-via="laptrinhsenviet" data-size="large" data-related="laptrinhsenviet" data-hashtags="passwordHasing" data-dnt="true">Tweet</a>
 	</div>
-	<footer><a href="http://www.polymer-project.org/" target="_blank"><img src="https://www.polymer-project.org/images/logos/p-logo.svg"></a>
+	<footer>
+		<a href="http://www.polymer-project.org/" target="_blank"><img src="https://www.polymer-project.org/images/logos/p-logo.svg"></a>
 		<p>Powered by <a href="http://www.polymer-project.org/" target="_blank">Google</a>, <a href="http://senviet.org">Sen Việt</a></p>
 	</footer>
 	</body>
