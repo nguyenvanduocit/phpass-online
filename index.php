@@ -34,7 +34,7 @@ require_once __DIR__ . '/function.php';
 
 	<hgroup>
 		<h1>Online Password Hashing</h1>
-		<h3>The online Password Hasher. Help you generate hashed Password for WordPress, bbPress, Drupal 5 & 6</h3>
+		<h3>Generate hashed Password for WordPress, bbPress, Drupal.</h3>
 	</hgroup>
 	<form id="generateForm">
 		<div class="group">
