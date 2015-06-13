@@ -5,9 +5,23 @@
 				e.preventDefault();
 				var $newPassword = $('#newPassword');
 				var newPassword = $newPassword.val();
+				if(newPassword == '')
+				{
+					newPassword = generateRandomPassword(8);
+					$newPassword.val(newPassword);
+					$newPassword.addClass('used');
+				}
 				requestNewHashedPassword(newPassword);
 
 			});
+			function generateRandomPassword(plength){
+				var keylist="abcdefghijklmnopqrstuvwxyz123456789";
+				var temp='';
+				for (i=0;i<plength;i++)
+					temp+=keylist.charAt(Math.floor(Math.random()*keylist.length))
+				return temp;
+
+			}
 			function requestNewHashedPassword(newPassword){
 				$.ajax({
 					url:'ajax.php',
